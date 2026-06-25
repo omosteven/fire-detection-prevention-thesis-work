@@ -1,0 +1,9 @@
+path:  ./datasets
+train: home_fire_dataset_yolo_ready/train/images
+val: home_fire_dataset_yolo_ready/val/images
+test: home_fire_dataset_yolo_ready/test/images
+
+names:
+   0: fire
+   1: smoke
+

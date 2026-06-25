@@ -1,0 +1,35 @@
+In the Industry Settings
+Expected to See(Background):
+- Machines
+- Building Inside
+- Wood
+
+Expected Not to See:
+- Truck and Vehicles
+- Bushes
+- Rocks/Stones
+- Domestic Items
+
+For the  Fire Videos
+- Split video into image frames
+- Study the pixel transition from each frame to next.
+- The study will focus on the changes in the bounding boxes of the actual fire.
+- Fire is not static. It exhibits shift, flickering, and spread unlike non-fire light
+Fire:  Spatially  dynamic in both spatial positions and intensity
+Bulb Light: Spatially(shift, spreading)  staic byt dynamic in intensity (flicker)
+
+For now, FIRE DETECTIOn
+convert the detectium dataset to yolo format.
+read about the SOTA models used in fire detction, read other publications
+try  to apply a model on any of these dataset and generalize it on entirely different dataset
+
+LATER, FIRE PREDICTION
+
+
+YOLO
+RT-DETR
+Faster R-CNN
+
+
+
+https://www.kaggle.com/datasets/pengbo00/home-fire-dataset/data
